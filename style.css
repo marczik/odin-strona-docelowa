@@ -23,15 +23,23 @@ a {
 .header {
 	display: flex;
 	flex-direction: column;
+    padding: 20px 80px;
 }
 
 .header-up {
 	display: flex;
 	justify-content: space-between;
+    padding: 20px 0;
 }
 
 .header-down {
 	display: flex;
+    padding: 20px 0;
+}
+
+.text {
+display: flex;
+flex-direction: column;
 }
 
 .info {
@@ -53,4 +61,5 @@ a {
 .footer {
     background-color: #1F2937;
     color: white;
+    padding: 30px;
 }
