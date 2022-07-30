@@ -1,0 +1,29 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-up {
+	display: flex;
+}
+
+.header-down {
+	display: flex;
+}
+
+.info {
+}
+
+.cytat {
+}
+
+.signup {
+}
+
+.footer {
+}
