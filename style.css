@@ -71,20 +71,31 @@ a {
 	text-align: center;
 }
 .cytat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #E5E7EB;
-    justify-content: center;
-padding: 200px 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #e5e7eb;
+	justify-content: center;
+	padding: 200px 250px;
 }
 
 .podpis {
-    display: flex;
-    align-self: flex-end;
+	display: flex;
+	align-self: flex-end;
 }
 
 .signup {
+	display: flex;
+	justify-content: space-between;
+	padding: 60px 100px;
+	margin: 100px 250px;
+	background-color: #3882f6;
+    color: white;
+}
+
+.sg-left {
+	display: flex;
+	flex-direction: column;
 }
 
 .footer {
