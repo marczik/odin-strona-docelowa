@@ -1,15 +1,15 @@
 body {
 	display: flex;
 	flex-direction: column;
-    font-family: Roboto, sans-serif;
-    margin: 0;
+	font-family: Roboto, sans-serif;
+	margin: 0;
 }
 
 ul {
 	display: flex;
 	padding: 0;
 	margin: 0;
-    gap: 16px;
+	gap: 16px;
 }
 
 li {
@@ -18,33 +18,58 @@ li {
 
 a {
 	text-decoration: none;
-    color: white;
+	color: white;
 }
+
 .header {
 	display: flex;
 	flex-direction: column;
-    padding: 20px 80px;
+	padding: 20px 80px;
 }
 
 .header-up {
 	display: flex;
 	justify-content: space-between;
-    padding: 20px 0;
+	padding: 20px 0;
 }
 
 .header-down {
 	display: flex;
-    padding: 20px 0;
+	padding: 20px 0;
+	height: 300px;
 }
 
 .text {
-display: flex;
-flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 500px;
+	padding: 20px 80px;
 }
 
+.info-up {
+	padding: 20px;
+}
+
+.info-ul {
+	display: flex;
+	gap: 30px;
+	padding: 20px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: auto;
+	gap: 10px;
+	text-align: center;
+}
 .cytat {
 }
 
@@ -52,14 +77,14 @@ flex-direction: column;
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .header,
 .footer {
-    background-color: #1F2937;
-    color: white;
-    padding: 30px;
+	background-color: #1f2937;
+	color: white;
+	padding: 30px;
 }
